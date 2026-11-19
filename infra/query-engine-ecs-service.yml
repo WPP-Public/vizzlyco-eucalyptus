@@ -172,7 +172,6 @@ Resources:
       LoadBalancerArn: !Ref LoadBalancerArn
       Port: !Ref HostPort
       Protocol: HTTPS
-      SslPolicy: ELBSecurityPolicy-TLS13-1-2-2021-06
       Certificates:
         - CertificateArn: !Ref CertificateArn
       DefaultActions:
